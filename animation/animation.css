@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    animation-name: animation;
+    animation-duration: 3s;
+    font-size: 200px;
+    line-height: 30px;
+  }
+  
+
+  
+
+   @keyframes animation {
+    75%  {left:0px; top:700px;}
+    100% {left:0px; top:0px;}
+  } 

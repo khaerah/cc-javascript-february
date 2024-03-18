@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+</head>
+<body>
+    <!-- <h2 id="sample">duplicate this sentence</h2>
+    <h3 id="duplicate"></h3> -->
+
+    <!-- <script>
+        // select h2 element
+        let target = document.getElementById('sample')
+
+        // select h3 element
+        let h3element = document.getElementById('duplicate');
+
+        // paste contents of h2 element to contents of h3 element  
+        h3element.innerHTML = target.innerHTML
+    </script> -->
+
+
+    <p id="first">first pargraph</p>
+    <p>second paragraph</p>
+    <p>third paragraph</p>
+    <h2 class="different">Ths is a h2 tag</h2>
+    <p>second paragraph</p>
+    <h3 class="different">Ths is a h2 tag</h3>
+
+    <script>
+        let elements =document.getElementsByTagName('p')
+        let otherElements =document.getElementsByClassName('different');
+
+        for(let count = 0; count<=elements.length-1; count++){
+            elements[count].style.color ='blue'
+        }
+
+        for(let count =0; count <= otherElements.lenth-1; count++){
+            otherElements[count].style.color='green'
+        }
+    </script>
+</body>
+</html>
