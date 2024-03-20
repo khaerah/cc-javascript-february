@@ -14,7 +14,7 @@ function removeNegative(numbers, callBack){
     const myArray =[];
     for (const x of numbers) {
         if(callBack(x)){
-            myArray.push
+            myArray.push(x);
         }
     }
     return myArray;
