@@ -11,7 +11,7 @@ document.getElementById('initial').innerHTML += myNumbers
 function removeNegative(numbers, callBack){
     const myArray =[];
     for (const x of numbers) {
-        if (callBack(x)) {
+        if (callBack(x)) { 
             myArray.push(x);
         }
     }
