@@ -1,5 +1,5 @@
 const pserson ={
-    fnamw:"john",
+    fname:"john",
     lname: "doe",
     age:25
 }

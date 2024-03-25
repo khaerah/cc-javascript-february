@@ -23,5 +23,4 @@ async function punchline(){
     jokeElement.innerHTML = jokeObject.punchline;
 
 };
-
 punchline();
